@@ -1,0 +1,19 @@
+.hero {
+    background-color: #1D1D1F;
+    display: flex;
+    flex-direction: column;
+    max-width: 1165px;
+    padding-bottom: 211px;
+    margin-inline: auto;
+}
+
+.hero__title {
+    font-weight: 600px;
+    font-size: 96px;
+    line-height: 100%;
+}
+
+.hero__subtitle {
+    font-weight: 400px;
+    line-height: 150%;
+}
