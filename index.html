@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,46 +14,65 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header__container">
             <a href="#" class="header__logo">
                 Company Logo
             </a>
-            <nav>
-                <ul class="menu">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="11.7669" cy="11.7666" r="8.98856" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M18.0186 18.4851L21.5426 22" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+                <nav>
+                    <ul class="menu">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="11.7669" cy="11.7666" r="8.98856" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M18.0186 18.4851L21.5426 22" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <li><a class="header__link" href="#">Portfolio</a></li>
+                        <li><a class="header__link" href="#">Team</a></li>
+                        <li><a class="header__link" href="#">About</a></li>
+                        <li><a class="header__link" href="#">Blog</a></li>
+                        <li><a class="header__link" href="#">Contact</a></li>
+                    </ul>
+                </nav>
         </div>
-    <hero class="hero">
-        <h1 class="hero__title">
-            We produce <br> the best products
-        </h1>
-        <p class="hero__subtitle">
-            Mattis quam, lectus et justo amet, tortor, lectus dapibus est. <br> Habitasse efficitur sodales vel est.
-        </p>
-        <button type="button" class="button hero__button">
-            button
-        </button>
-    </hero>
+        <section class="container hero__container">
+                    <h1 class="hero__title">
+                    We produce <br> the best products
+                    </h1>
+                    <p class="hero__subtitle">
+                    Mattis quam, lectus et justo amet, tortor, lectus dapibus est. <br> Habitasse efficitur sodales vel est.
+                    </p>
+                    <button type="button" class="button hero__button">
+                        button
+                    </button>
+        </section>
+        </div>
     </header>
-
     <main class="main">
-        <div class="main__container">
-            <h2>20,000</h2>
-            <h2>10,000</h2>
-            <h2>347</h2>
-            <h1 class="main__title">Amet, mattis dapibus <br> malesuada arcu dapibu <br> nec efficitur et dictum. <br> In sit odio. Tempus leo, <br> dictum. </h1>
-            <p class="main__subtitle">Amet, mattis dapibus malesuada arcu dapibus nec efficitur et dictum. <br> In sit odio. Tempus leo, dictum. Sit mattis mattis lorem cursus velit sit sed et <br> vitae quam, sed nulla dapibus venenatis odio.</p>
+        <div class="main__container container">
+            <div>
+                <ul>
+                    <div class="main__figure"><li>20,000</li></div>
+                    <p>copleted projects</p>
+                    <div class="main__figure"><li>10,000</li></div>
+                    <p>prototypes</p>
+                    <div class="main__figure"><li>347</li></div>
+                    <p>copleted projects</p>
+                </ul>
+            </div>
+            <div>
+                <h2 class="main__title">
+                    Amet, mattis dapibus malesuada arcu dapibus nec efficitur et dictum. In sit odio. Tempus leo, dictum. 
+                </h2>
+                <p class="main__subtitle">
+                    Amet, mattis dapibus malesuada arcu dapibus nec efficitur et dictum. 
+                    In sit odio. Tempus leo, dictum. Sit mattis mattis lorem cursus velit sit sed et vitae quam, 
+                    sed nulla dapibus venenatis odio.
+                </p>
+                <p class="main__subtitle">
+                    Venenatis sapien aenean adipiscing lacinia nec lacinia lacinia et quam, ultricies. 
+                    Dictum. Ipsum sodales sit id nec sed sodales mattis mollis quis, 
+                    pellentesque habitasse ex.
+                </p>
+            </div>
         </div>
     </main>
-    <p>Hello world</p>
 </body>
 </html>

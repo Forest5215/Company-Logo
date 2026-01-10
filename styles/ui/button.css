@@ -1,17 +1,9 @@
 .button {
-    color: #FFFF;
+    color: #FFFFFF;
     background-color: #1D1D1F;
     font-size: 17px;
     width: 100%;
     font-weight: 600;
     cursor: pointer;
     border: none;
-}
-
-.hero__button {
-    color: #1D1D1F;
-    background-color: #FFFF;
-    padding-block: 20px;
-    margin-top: 50px;
-    width: 180px;
 }

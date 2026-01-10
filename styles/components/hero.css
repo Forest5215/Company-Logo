@@ -1,19 +1,22 @@
-.hero {
-    background-color: #1D1D1F;
+.hero__container {
     display: flex;
     flex-direction: column;
-    max-width: 1165px;
-    padding-bottom: 211px;
     margin-inline: auto;
+    color: #FFFFFF;
 }
 
 .hero__title {
-    font-weight: 600px;
     font-size: 96px;
-    line-height: 100%;
 }
 
 .hero__subtitle {
     font-weight: 400px;
-    line-height: 150%;
+}
+
+.hero__button {
+    color: #1D1D1F;
+    background-color: #FFFFFF;
+    padding-block: 20px;
+    margin-top: 50px;
+    max-width: 180px;
 }

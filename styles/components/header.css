@@ -1,24 +1,28 @@
 .header {
     background-color: #1D1D1F;
-    color: #FFFF;
 }
 
-.container {
-    max-width: 1165px;
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-inline: auto;
+    padding-block: 36px;
+    padding-bottom: 150px;
 }
 
 .header__logo {
     font-size: 32px;
-    line-height: 100px;
+    align-items: center;
+    color: #FFFFFF;
 }
 
 .menu {
     display: flex;
     align-items: center;
-    line-height: 100%;
     gap: 50px;
+}
+
+.header__link {
+    color: #FFFFFF;
 }

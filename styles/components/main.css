@@ -1,0 +1,18 @@
+.main__container {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    
+}
+
+.main__title {
+    font-size: 44px;
+}
+
+.main__subtitle {
+    font-size: 14px;
+}
+
+.main__figure {
+    font-size: 64px;
+}
